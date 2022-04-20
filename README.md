@@ -2,20 +2,20 @@
 
 ## Тестирование, направленное на реализацию функциональности валидации номеров банковских карт
 
-<16.08.2021> было проведено <33 ручных тестирований> приложения Credit Card Number Validator.
+<16.08.2021> было проведено <31 ручное тестирование> приложения Credit Card Number Validator.
 
 На тестирование затрачено: <2 часа >
 
 В результате тестирования выявлены следующие дефекты:
-<https://github.com/AnastasiaRush/Credit-Card-Number-Validator..>
+ * [Не работают карты, которые имеют больше или меньше 16 символов ](https://github.com/AnastasiaRush/credit-card/issues/1)
 
 
 В процессе тестирования использовались следующие артефакты:
-* <https://github.com/netology-code/javaqa-homeworks/blob/master..>
+* [Пример отчета о тестировании ](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/report.md)
 
 
 В качестве тестовых данных использовались данные :
-<https://www.freeformatter.com/credit-card-number-generator-va..>
+* [Тестовые данные ](https://www.freeformatter.com/credit-card-number-generator-validator.html)
 * VISA:
 * 4024007178402276
 * 4485668034415497
@@ -31,7 +31,7 @@
 * Discover:
 * 6011000713128795
 * 6011303834626469
-* 6011129172047804467JCB:
+* 6011129172047804
 * 3529315071713745
 * 3544300945318765
 * 3529076423713681953
@@ -45,7 +45,7 @@
 * Diners Club - International:
 * 36336082734001
 * 36867479980450
-* 36039958941052Maestro:
+* 36039958941052
 * 6761932650077050
 * 0604840932461733
 * 5020307263239273
@@ -61,6 +61,7 @@
 Ожидаемый результат: Result is OK
 
 Тестирование производилось в следующем окружении:
+* 64-разрядная операционная система, процессор x64
 * HONOR Magic-link
 * Windows 10
 * Java 11.0.10
